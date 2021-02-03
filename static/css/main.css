@@ -118,7 +118,7 @@ div.card {
   width: 100;
   height: 100%;
   background-color: dodgerblue;
-  background-image: url("/static/img/Untitled-1.jpg");
+  background-image: url("/img/Untitled-1.jpg");
   background-size: 1000px;
   display: flex;
   flex-direction: row;
@@ -128,7 +128,7 @@ div.card {
 
 }
 
-#frame {
+#frame_about {
   width: 75%;
   height: 75%;
   background-color: #000;
@@ -148,12 +148,12 @@ div.card {
 }
 
 #picture {
-  width: 30%;
+  width: 20%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 350px;
+  max-width: 150px;
 }
 
 #me {
