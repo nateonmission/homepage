@@ -1,0 +1,23 @@
+{
+  "name": "nateonmission",
+  "version": "1.0.0",
+  "description": "Homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nateonmission/homepage.git"
+  },
+  "author": "JNA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nateonmission/homepage/issues"
+  },
+  "homepage": "https://github.com/nateonmission/homepage#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}
