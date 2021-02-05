@@ -3,11 +3,20 @@ block header
     nav
         ul#nav
             li
-                a.nav.active(href='/') About
+                if page === 'about'
+                    a.nav.active(href='/') About
+                else
+                    a.nav(href='/') About
             li
-                a.nav(href='/portfolio') Portfolio
+                if page === 'portfolio'
+                    a.nav.active(href='/portfolio') Portfolio
+                else
+                    a.nav(href='/portfolio') Portfolio
             li
-                a.nav(href='/resume') Resume
+                if page === 'resume'
+                    a.nav.active(href='/resume') Resume
+                else
+                    a.nav(href='/resume') Resume
             li
                 a.nav(href='http://github.com/nateonmission') GitHub
             li

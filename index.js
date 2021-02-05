@@ -7,7 +7,11 @@ app.set('view engine', 'pug')
 app.use(express.static('./static'));
 
 app.get('/', (req, res) => {
-  res.render('about')
+  res.render('about', {page: 'about'})
+})
+
+app.get('/resume', (req, res) => {
+  res.render('resume', { page: 'resume' })
 })
 
 app.listen(PORT)
