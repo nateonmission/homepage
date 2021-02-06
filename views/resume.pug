@@ -1,0 +1,113 @@
+extends layout.pug
+block content
+    #frame_resume.card
+        p Download a PDF version of my #[a.inline(href='resume.pdf') resume ]
+
+        #resume.card
+            #contact.card
+                #name
+                    h1 J.&nbsp;Nathan&nbsp;Allen
+                #handle
+                    h3 Email:&nbsp;nateonmission&nbsp;(at)&nbsp;gmail&nbsp;(dot)&nbsp;com
+            #skills.card
+                h3 Relavant Skills:
+                #skillsList
+                    ul
+                        li Python
+                        ul
+                            li Flask
+                            li Django
+                            li Jupyter
+                    ul
+                        li C#
+                        li Java
+                        li SQL
+                    ul
+                        li JavaScript
+                        ul
+                            li React
+                            li Express
+                        li HTML/CSS
+            #projects.card
+                h3 Selected Projects
+                ul
+                    li 
+                        a(href='https://github.com/nateonmission/Star-Trek-Streams') Star Trek Streams 
+                        ul
+                            li This ReactJS app pulls information from frequently updated APIs to help users find where specific Star Trek series and movies are streaming.
+                    li 
+                        a(href='https://github.com/nateonmission/Entertainment-Selector') Entertainment Selector
+                        ul
+                            li This Java console app take a date from the user and then, reading from CSVs, returns the New York Times best selling books and the Billboard top songs for that week in JSON format.
+                    li 
+                        a(href='https://github.com/nateonmission/commodore_portfolio') Portfolio Website Demo 
+                        ul
+                            li This is a mock-up of a portfolio website. Its purpose is to demonstrate an understanding of HTML, JavaScript, and CSS. I, also, included PHP to make it more responsive. 
+                    li 
+                        a(href='https://github.com/nateonmission/NCAAStatsProc') NCAA Graduation Statistics Processor
+                        ul
+                            li This C# console app reads a CSV file, obtained from the NCAA website. It, then, aggregates and averages the graduation statistics of the student athletes by athletic conference, and saves it as a JSON file.
+
+            #certifications.card
+                h3 Certification
+                ul
+                    li Google IT Professional Specialization
+                    li COMPIA A+
+
+            #education.card
+                h3 Education
+                ul
+                    li #[b Jefferson Community &amp; Technical College]
+                        ul Topics studied includes:
+                            li Computer Science
+                            li Python
+                            li C#
+                            li Java
+                    li #[b University of Louisville]
+                        ul
+                            li Bachelors of Science in Business Administration
+                            li Major: Accounting
+                            li Cum Laude
+                    li #[b Middle Tennessee State University]
+                        ul
+                            li Bachelors of Science
+                            li Majors: International Relations, French, and German
+
+
+            #workHistory.card
+                h3 Work History
+                .job
+                    .company
+                        b Charter
+                        b Technical Support Agent
+                        b 2005 - Present
+                    .jobDescription
+                        ul
+                            li Resolve data service issues related to local network, their company owned equipment and/or software configurations, including email;
+                            li Provided training for peers on lowering repeat calls and increasing customer satisfaction;
+                            li Routinely rank in the top 100 of my peer group of more than 1,000 agents;
+                            li Achieved Agent of the Month 3 out of 12 months.
+
+                .job
+                    .company
+                        b Simply Southern Florist
+                        b Partner
+                        b 2013-2017
+                    .jobDescription
+                        ul
+                            li Invoice customers and recording receipt of payments; 
+                            li Maintain records relevant to tax preparations;
+                            li Generate administrative, personnel, and financial reports from accounting and retail databases;
+                            li Manage firm’s projects (e.g. our participation in community festivals)
+                .job
+                    .company
+                        b HomeWorx
+                        b Proprietor
+                        b 2003-2013
+                    .jobDescription
+                        ul
+                            li Document translation (German or French to English);  
+                            li Document conversion (Paper to digital format and cross-platform conversions); 
+                            li Personal computer repair and networking;
+                            li Recording the sale of services by cash and charge transactions; 
+                            li Generating administrative, personnel, and financial reports from accounting and retail databases and spreadsheets.
