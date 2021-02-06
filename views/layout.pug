@@ -9,11 +9,15 @@ html(lang='en')
         link(href='https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap' rel='stylesheet')
         link(rel='stylesheet' href='../css/main.css')
 
-    body
-        #whole
-            #header
-                include includes/header
-            #content
-                block content
-            #footer
-                include includes/footer
+    if page === 'about'
+        body.about
+    else
+        body.normal
+
+    #whole
+        #header
+            include includes/header
+        #content
+            block content
+        #footer
+            include includes/footer
