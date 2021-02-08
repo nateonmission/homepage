@@ -5,10 +5,10 @@ const app = express()
 app.locals.moment = require('moment')
 
 app.set('view engine', 'pug')
-app.use(express.static('./static'));
+app.use(express.static('./static'))
 
 app.get('/', (req, res) => {
-  res.render('about', {page: 'about'})
+  res.render('about', { page: 'about' })
 })
 
 app.get('/resume', (req, res) => {
